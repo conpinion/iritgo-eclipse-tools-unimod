@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup></startup>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="de.iritgo.eclipse.tools.unimod.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="de.iritgo.eclipse.tools.preferences.PreferencePage"
+            class="de.iritgo.eclipse.tools.unimod.preferences.UnimodPreferencePage"
+            id="de.iritgo.eclipse.tools.unimod.preferences.UnimodPreferencePage"
+            name="Unimod">
+      </page>
+   </extension>
+
+</plugin>
