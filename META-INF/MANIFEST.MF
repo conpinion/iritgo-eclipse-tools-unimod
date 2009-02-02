@@ -10,6 +10,6 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.core.resources,
  com.evelopers.unimod,
  de.iritgo.eclipse.tools
-Eclipse-LazyStart: true
-Bundle-ClassPath: lib/commons-io-1.4.jar,
- .
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/commons-io-1.4.jar
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
