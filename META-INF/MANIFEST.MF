@@ -11,5 +11,6 @@ Require-Bundle: org.eclipse.ui,
  com.evelopers.unimod,
  de.iritgo.eclipse.tools
 Bundle-ActivationPolicy: lazy
-Bundle-ClassPath: lib/commons-io-1.4.jar
+Bundle-ClassPath: lib/commons-io-1.4.jar,
+ .
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
