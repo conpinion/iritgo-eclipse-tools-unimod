@@ -9,13 +9,9 @@ package de.iritgo.eclipse.tools.unimod;
 
 import org.eclipse.core.resources.IResourceChangeListener;
 import org.eclipse.core.resources.ResourcesPlugin;
-import org.eclipse.jface.util.IPropertyChangeListener;
-import org.eclipse.jface.util.PropertyChangeEvent;
 import org.eclipse.ui.IStartup;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
-
-import de.iritgo.eclipse.tools.unimod.preferences.PreferenceConstants;
 
 
 /**
@@ -63,7 +59,7 @@ public class IritgoUnimodPlugin extends AbstractUIPlugin implements IStartup
 
 	/**
 	 * Returns the shared instance
-	 * 
+	 *
 	 * @return the shared instance
 	 */
 	public static IritgoUnimodPlugin getDefault ()
