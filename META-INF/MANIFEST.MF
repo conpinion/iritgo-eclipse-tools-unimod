@@ -5,7 +5,7 @@ Bundle-SymbolicName: de.iritgo.eclipse.tools.unimod;singleton:=true
 Bundle-Version: 1.0.0
 Bundle-Activator: de.iritgo.eclipse.tools.unimod.IritgoUnimodPlugin
 Bundle-Vendor: Iritgo Technologies
-Require-Bundle: org.eclipse.ui,
+Require-Bundle: org.eclipse.ui;bundle-version="3.5.0",
  org.eclipse.core.runtime,
  org.eclipse.core.resources,
  com.evelopers.unimod,
